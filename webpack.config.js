@@ -49,5 +49,6 @@ module.exports = {
     static: './dist',
     historyApiFallback: true,
     port: 3000,
+      allowedHosts: 'all',
   },
 };
